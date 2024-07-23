@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+#calculator {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(86, 86, 86);
+    color: white;
+}
+#keys {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 4%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(120, 108, 92);
+}
+button:active {
+    background-color: rgb(67, 38, 0);
+}
+.op-btn {
+    background-color: rgb(31, 31, 29);
+    color:orange;
+}
+.op-btn:hover {
+    background-color: rgb(55, 124, 74);
+}
+.eval-btn {
+    background-color: orange;
+}
+.eval-btn:hover {
+    background-color: rgb(169, 119, 32);
+}
+.cls-btn {
+    background-color:hsl(0, 0%, 4%);
+    color:orange;
+}
+.cls-btn:hover {
+    background-color: rgb(160, 29, 29);
+}
+.cl-btn {
+    background-color: hsl(0, 0%, 4%);
+    color: orange;
+}
+.cl-btn:hover {
+    background-color: rgb(114, 59, 59);
+}
